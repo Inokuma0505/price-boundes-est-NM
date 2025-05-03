@@ -89,14 +89,22 @@ def cross_validation_bounds_penalty_all(
     M: int, K: int,
     bounds_range: float, lam1: float, lam2: float
 ):
-    lb, ub = bounds[:M], bounds[M:]
-    bounds_nm = [(min(lb[i], ub[i]), max(lb[i], ub[i])) for i in range(M)]
+    
+    bounds_list = []
+    for i in range(M):
+        # 上下限が逆転していたら平均で固定
+        if bounds[i] > bounds[i + M]:
+            bounds_mean = (bounds[i] + bounds[i + M]) / 2
+            bounds_list.append((bounds_mean, bounds_mean))
+        # 上下限が逆転していなければそのまま使用
+        else:
+            bounds_list.append((bounds[i], bounds[i + M]))    
     sales_vals = []
     for j in range(K):
         init = np.full(M, 0.6)
         res = minimize(
             lambda p: -np.sum(p * (np.array(tilda_intercepts_list[j]) + np.stack(tilda_coefs_list[j]).dot(p))),
-            init, bounds=bounds_nm, method="L-BFGS-B"
+            init, bounds=bounds_list, method="L-BFGS-B"
         )
         p_opt = res.x
         sales_vals.append(np.sum(
@@ -107,9 +115,13 @@ def cross_validation_bounds_penalty_all(
             )
         ))
     mean_sales = np.mean(sales_vals)
-    pen1 = np.sum(ub - lb) - M * bounds_range
-    pen2 = np.sum(np.maximum(lb - ub, 0) ** 2)
-    return -mean_sales + lam1 * max(0, pen1) ** 2 + lam2 * pen2
+    pen1 = 0
+    for i in range(M):
+        pen1 += bounds[i + M] - bounds[i]
+    pen2 = 0
+    for i in range(M):
+        pen2 += max(0,bounds[i]-bounds[i+M])**2
+    return -mean_sales + lam1 * max(0, pen1 - M * bounds_range) ** 2 + lam2 * pen2
 
 def estimate_bounds_penalty_nelder_all(
     range_bounds: np.ndarray,
@@ -339,7 +351,7 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
 
     # --- ペナルティ法 (penalty) ---
     # penalties は {'ebpa3':0.30, 'ebpa4':0.40, ...} のように
-    for name, lam in penalties.items():
+    for name, pen in penalties.items():
         t0_p = time.perf_counter()
         # 引数: 初期 range_bounds, tildaリスト, hatリスト, M, K, r_min, r_max, bounds_range, lam1, lam2
         pen_val, bounds_pen = estimate_bounds_penalty_nelder_all(
@@ -348,8 +360,9 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
             h_coefs, h_ints,
             M, config['K'],
             config['r_min'], config['r_max'],
-            config['r_max'] - config['r_min'],  # 期待される各商品の幅
-            lam, lam
+            pen,
+            lam1 =1.0, lam2=1.0,
+            
         )
         res_p = minimize(
             lambda p: -np.sum(p * (np.array(ints_full) + np.stack(coefs_full).dot(p))),
@@ -383,7 +396,7 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
 
 # --- メイン ---
 def main():
-    config={'M_list':[5,10],'delta_list':[0.6,0.8,1.0],'N':500,'K':5,'r_mean':0.8,'r_std':0.1,'r_min':0.5,'r_max':1.1}
+    config={'M_list':[5,10],'delta_list':[0.6,0.8,1.0],'N':500,'K':5,'B':100,'r_mean':0.8,'r_std':0.1,'r_min':0.5,'r_max':1.1}
     quantiles=[0.95,0.90,0.85,0.80]
     boot_k={99:2.576,95:1.96,90:1.645}
     penalties={'ebpa3':0.30,'ebpa4':0.40,'ebpa5':0.50,'ebpa6':0.60}
