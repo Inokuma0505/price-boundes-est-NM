@@ -175,13 +175,26 @@ def main():
     boot_k={99:2.576,95:1.96,90:1.645}
     penalties={'ebpa3':0.30,'ebpa4':0.40,'ebpa5':0.50,'ebpa6':0.60}
     # 初期化
-    results={}
-    for M,d in itertools.product(config['M_list'],config['delta_list']):
-        key=f'M{M}_delta{d}'
-        results[key]={}
-        for m in ['so','po']+[f'quan{int(q*100)}' for q in quantiles]+[f'boot{p}' for p in boot_k]+list(penalties.keys()):
-            results[key][m]={sub:[] for sub in ['time','sales_ratio','true_sales_ratio','range_diff','range_per_product_diff','range_per_product','prices']}
-        results[key]['r2_list']=[]
+    results = {}
+    param_combos = list(itertools.product(config["M_list"], config["delta_list"]))
+    for M, delta in param_combos:
+        key = f"M{M}_delta{delta}"
+        results[key] = {}
+        methods = ['so', 'po']
+        methods += [f'quan{int(q*100)}' for q in quantiles]
+        methods += [f'boot{p}' for p in boot_k]
+        methods += list(penalties.keys())
+        for m in methods:
+            results[key][m] = {
+                'sales_ratio': [],
+                'true_sales_ratio': [],
+                'range_diff': [],
+                'range_per_product_diff': [],
+                'range_per_product': [],
+                'prices': [],
+                'time': []
+            }
+        results[key]['r2_list'] = []
     # 並列実行
     combos=[(i,M,d) for M,d in itertools.product(config['M_list'],config['delta_list']) for i in range(100)]
     total=len(combos)
