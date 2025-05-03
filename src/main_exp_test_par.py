@@ -369,16 +369,15 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
         }
         
         # --- R²スコア計算 （各foldのhatモデルによる予測vs真のY） ---
-    from sklearn.metrics import r2_score
-    r2_list = []
-    for j, (tr, te) in enumerate(splits):
-        # hatモデルの係数・切片
-        coefs_j = h_coefs[j]
-        ints_j = h_ints[j]
-        # テストデータの予測
-        Y_pred = X[te].dot(np.stack(coefs_j).T) + np.array(ints_j)
-        r2_list.append(r2_score(Y[te], Y_pred))
-    out['r2_list'] = r2_list
+
+
+    lr_full = MultiOutputRegressor(LinearRegression()).fit(X, Y)
+    preds_full = lr_full.predict(X)
+    r2_list_full = []
+    for idx in range(M):
+        r2_list_full.append(r2_score(Y[:, idx], preds_full[:, idx]))
+        out['r2_list'] = r2_list_full
+
         
     return (f'M{M}_delta{delta}', out)
 
