@@ -159,4 +159,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-data/
+data/cuda-repo-ubuntu2204-12-8-local_12.8.1-570.124.06-1_amd64.deb
