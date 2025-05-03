@@ -143,6 +143,91 @@ def estimate_bounds_penalty_nelder_all(
     opt = res.x
     return -res.fun, [(min(opt[i], opt[i+M]), max(opt[i], opt[i+M])) for i in range(M)]
 
+def bound_quan(price_list: np.ndarray, q: float) -> Tuple[np.ndarray, np.ndarray]:
+    """
+    price_list : shape (N, M) の価格データ (N 件のサンプル、M 商品分)
+    q          : 上限とする分位数 (例: 0.95 など)
+
+    戻り値:
+        lower_bound : (1-q) 分位数 (shape (M,))
+        upper_bound : q 分位数   (shape (M,))
+    """
+    # axis=0 で列ごとに分位数を計算
+
+    # 下限となる分位数を求める
+    lower_bound = np.quantile(price_list, 1-q, axis=0)
+    # 上限となる分位数を求める
+    upper_bound = np.quantile(price_list, q, axis=0)
+    bounds_quan = []
+    for i in range(len(lower_bound)):
+        bounds_quan.append((lower_bound[i], upper_bound[i]))
+    return bounds_quan
+
+def bootstrap_bounds(
+    M: int,
+    X: np.ndarray,
+    Y: np.ndarray,
+    r_min: float,
+    r_max: float,
+    n_iterations: int = 1000,
+    k: float = 1.96
+) -> tuple[np.ndarray, np.ndarray]:
+    """
+    ブートストラップサンプルを用いて各商品の最適価格の統計量（平均±k*標準偏差）から価格範囲を算出する関数
+    
+    Parameters:
+      M: 商品数（価格の次元数）
+      X: 価格設定のデータ（各行が一つの実験データ、shape=(n_samples, M)）
+      Y: 需要のデータ（Xと対応するデータ、shape=(n_samples, M)）
+      bounds: 最適化に使用する各商品の価格下限・上限のリスト（例：[(r_min, r_max), ...]）
+      n_iterations: ブートストラップの反復回数（デフォルトは1000）
+      k: 標準偏差のスケールパラメータ（例：1.96 なら約95%信頼区間）
+    
+    Returns:
+      lower_bounds: 各商品の価格下限（mean - k * std）
+      upper_bounds: 各商品の価格上限（mean + k * std）
+      
+    ※ 内部で predict_optimize 関数を使用して最適価格を算出している前提です。
+    """
+    bounds = [(r_min, r_max) for _ in range(M)]
+    optimal_prices_list = []
+    n_samples = X.shape[0]
+    
+    for i in range(n_iterations):
+        # ブートストラップサンプルを行単位の復元抽出で取得
+        indices = np.random.choice(n_samples, size=n_samples, replace=True)
+        X_bs = X[indices]
+        Y_bs = Y[indices]
+        
+        # 取得したブートストラップサンプルを用いて価格最適化を実施
+        # predict_optimize は (optimal_value, optimal_prices) を返す前提
+        _, opt_prices = predict_optimize(M, X_bs, Y_bs, bounds)
+        optimal_prices_list.append(opt_prices)
+    
+    # ブートストラップで得られた最適価格を NumPy 配列に変換（shape: (n_iterations, M)）
+    #print(optimal_prices_list)
+    optimal_prices_array = np.array(optimal_prices_list)
+    
+    # 各商品の最適価格の平均と標準偏差を計算
+    mean_prices = np.mean(optimal_prices_array, axis=0)
+    std_prices = np.std(optimal_prices_array, axis=0)
+    
+    # 平均 ± k * 標準偏差を下限・上限として算出
+    lower_bounds = mean_prices - k * std_prices
+    upper_bounds = mean_prices + k * std_prices
+    
+    # 結果をタプルに格納
+    bootstrap_bounds = []
+    for i in range(M):
+        
+        # r_min と r_max でクリッピング
+        lower = max(r_min, lower_bounds[i])
+        upper = min(r_max, upper_bounds[i])
+
+        bootstrap_bounds.append((lower, upper))
+
+    return bootstrap_bounds
+
 # --- 単一実行 ---
 def run_one(i, M, delta, config, quantiles, boot_k, penalties):
     np.random.seed(int(delta*10) + (10 if M==10 else 0) + i)
@@ -219,16 +304,17 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
 
     for q in quantiles:
         t0_q = time.perf_counter()
-        # 下側(1-q), 上側(q) の分位点を取る
-        lower = np.quantile(p_opts_arr, 1-q, axis=0)
-        upper = np.quantile(p_opts_arr,    q, axis=0)
-        bounds_q = list(zip(lower, upper))
-        # フルhatモデルで再度最適化
-        res_q = minimize(
-            lambda p: -np.sum(p * (np.array(ints_full) + np.stack(coefs_full).dot(p))),
-            init, bounds=bounds_q, method='L-BFGS-B'
+        # 分位点法での下限・上限を計算
+        bounds_q = bound_quan(p_opts_arr, q)
+        lower = np.array([l for l, u in bounds_q])
+        upper = np.array([u for l, u in bounds_q])
+        
+        # 分位点法での最適化
+        q_val, q_p = predict_optimize(
+            M, X, Y,
+            bounds=bounds_q
         )
-        q_val, q_p = -res_q.fun, res_q.x
+        
         t1_q = time.perf_counter()
         out[f'quan{int(q*100)}'] = {
             'time': t1_q - t0_q,
@@ -245,14 +331,23 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
     std_p  = p_opts_arr.std(axis=0)
     for k, z in boot_k.items():
         t0_b = time.perf_counter()
-        lower_b = np.clip(mean_p - z * std_p, config['r_min'], config['r_max'])
-        upper_b = np.clip(mean_p + z * std_p, config['r_min'], config['r_max'])
-        bounds_b = list(zip(lower_b, upper_b))
-        res_b = minimize(
-            lambda p: -np.sum(p * (np.array(ints_full) + np.stack(coefs_full).dot(p))),
-            init, bounds=bounds_b, method='L-BFGS-B'
+        bounds_b = bootstrap_bounds(
+            M,
+            X,
+            Y,
+            config['r_min'],
+            config['r_max'],
+            n_iterations=config['B'],
+            k=z
         )
-        b_val, b_p = -res_b.fun, res_b.x
+        lower_b = np.array([l for l, u in bounds_b])
+        upper_b = np.array([u for l, u in bounds_b])
+        # ブートストラップ法での最適化
+        b_val, b_p = predict_optimize(
+            M, X, Y,
+            bounds=bounds_b
+        )
+        
         t1_b = time.perf_counter()
         out[f'boot{k}'] = {
             'time': t1_b - t0_b,
@@ -311,16 +406,31 @@ def run_one(i, M, delta, config, quantiles, boot_k, penalties):
 
 # --- メイン ---
 def main():
-    config={'M_list':[5,10],'delta_list':[0.6,0.8,1.0],'N':500,'K':5,'r_mean':0.8,'r_std':0.1,'r_min':0.5,'r_max':1.1}
+    config={'M_list':[5,10],'delta_list':[0.6,0.8,1.0],'N':500,'K':5,'B':500,r_mean':0.8,'r_std':0.1,'r_min':0.5,'r_max':1.1}
     quantiles=[0.95,0.90,0.85,0.80]
     boot_k={99:2.576,95:1.96,90:1.645}
     penalties={'ebpa3':0.30,'ebpa4':0.40,'ebpa5':0.50,'ebpa6':0.60}
-    results={}
-    for M,d in itertools.product(config['M_list'],config['delta_list']):
-        key=f'M{M}_delta{d}'; results[key]={};
-        for m in ['so','po']+[f'quan{int(q*100)}' for q in quantiles]+[f'boot{p}' for p in boot_k]+list(penalties.keys()):
-            results[key][m]={sub:[] for sub in ['time','sales_ratio','true_sales_ratio','range_diff','range_per_product_diff','range_per_product','prices']}
-        results[key]['r2_list']=[]
+    # 初期化
+    results = {}
+    param_combos = list(itertools.product(config["M_list"], config["delta_list"]))
+    for M, delta in param_combos:
+        key = f"M{M}_delta{delta}"
+        results[key] = {}
+        methods = ['so', 'po']
+        methods += [f'quan{int(q*100)}' for q in quantiles]
+        methods += [f'boot{p}' for p in boot_k]
+        methods += list(penalties.keys())
+        for m in methods:
+            results[key][m] = {
+                'sales_ratio': [],
+                'true_sales_ratio': [],
+                'range_diff': [],
+                'range_per_product_diff': [],
+                'range_per_product': [],
+                'prices': [],
+                'time': []
+            }
+        results[key]['r2_list'] = []
     combos=[(i,M,d) for M,d in itertools.product(config['M_list'],config['delta_list']) for i in range(100)]
     total=len(combos)
     with tqdm_joblib(tqdm(desc="Total Experiments",total=total)):
