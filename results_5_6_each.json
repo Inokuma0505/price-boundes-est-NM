@@ -1,0 +1,4322 @@
+{
+  "M5_delta0.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M5_delta0.2": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M5_delta0.4": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M5_delta0.6": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M5_delta0.8": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M5_delta1.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M6_delta0.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M6_delta0.2": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M6_delta0.4": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M6_delta0.6": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M6_delta0.8": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M6_delta1.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M7_delta0.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M7_delta0.2": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M7_delta0.4": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M7_delta0.6": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M7_delta0.8": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M7_delta1.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M8_delta0.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M8_delta0.2": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M8_delta0.4": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M8_delta0.6": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M8_delta0.8": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M8_delta1.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M9_delta0.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M9_delta0.2": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M9_delta0.4": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M9_delta0.6": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M9_delta0.8": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M9_delta1.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M10_delta0.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M10_delta0.2": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M10_delta0.4": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M10_delta0.6": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M10_delta0.8": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  },
+  "M10_delta1.0": {
+    "so": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "po": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan85": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "quan80": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot99": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot95": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "boot90": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa3": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa4": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa5": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "ebpa6": {
+      "sales_ratio": [],
+      "true_sales_ratio": [],
+      "range_diff": [],
+      "range_per_product_diff": [],
+      "range_per_product": [],
+      "prices": [],
+      "time": []
+    },
+    "r2_list": []
+  }
+}
